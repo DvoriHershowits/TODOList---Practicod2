@@ -18,15 +18,12 @@ public partial class ToDoDBContext : DbContext
     public virtual DbSet<Item> Items { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    // {
-    //     if (!optionsBuilder.IsConfigured)
-    //     {
-    //         string url ="server=bnyu2rpupoothabum3gz-mysql.services.clever-cloud.com;database=bnyu2rpupoothabum3gz;user=udbq9sebjleqnttw;password=AlfRu4efirNKxgJPzeD1";
-    //       //  string connectionString = "mysql://udbq9sebjleqnttw:AlfRu4efirNKxgJPzeD1@bnyu2rpupoothabum3gz-mysql.services.clever-cloud.com:3306/bnyu2rpupoothabum3gz";
-    //         optionsBuilder.UseMySql(url, Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
-    //     }
-    // }
-     => optionsBuilder.UseMySql("name=ToDoDB", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
+    {
+        var connectionString = "Server=b8tjn3vojowx7om2gewb-mysql.services.clever-cloud.com;Port=3306;Database=b8tjn3vojowx7om2gewb;Uid=ufod578zqr5xfpiu;Pwd=Qen9293uTHv3eonxxoGl";
+        var serverVersion = new MySqlServerVersion(new Version(8, 0, 32));
+        optionsBuilder.UseMySql(connectionString, serverVersion);
+    }
+    // => optionsBuilder.UseMySql("name=ToDoDB", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
