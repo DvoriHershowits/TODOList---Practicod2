@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ToDoListClient",
+    "\\ToDoListClient\\src"
   ],
+  "SelectedNode": "\\ToDoListClient\\package.json",
   "PreviewInSolutionExplorer": false
 }

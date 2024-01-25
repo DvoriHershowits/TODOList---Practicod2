@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WX7dHcpAyy/fhfU/94rACjW38v4rjw5OgWkJn8NJywCjEJyk7vc8I2AHynTwG0X2BKAtAcW+fxRqPdnwbbBAA==",
+  "dgSpecHash": "jOBgRhvyDiMDfYN3xItQ5eSNgIEJyCRX2tGbILu8VyG/OpF1v/Sq/ShOYaQHWBN4mQiD0gZEKgY1BoX+BLKiFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\todo git\\ToDoList\\TodoListServer\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\TODOList---Practicod2\\TodoListServer\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
